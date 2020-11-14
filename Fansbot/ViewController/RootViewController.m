@@ -1,22 +1,24 @@
 //
-//  ViewController.m
+//  RootViewController.m
 //  Fansbot
 //
 //  Created by 杨康 on 2020/11/14.
 //
 
-#import "ViewController.h"
+#import "RootViewController.h"
 
-@interface ViewController ()
+@interface RootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation RootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSLog(@"test");
 }
+
 
 
 @end

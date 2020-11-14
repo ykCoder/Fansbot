@@ -7,28 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3805F98E2AFB24A4D5D04DA5 /* libPods-Fansbot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6E2E2319AD4CC2457EE10A /* libPods-Fansbot.a */; };
 		FC08E9DB255F84B200B46FF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08E9DA255F84B200B46FF7 /* AppDelegate.m */; };
-		FC08E9DE255F84B200B46FF7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08E9DD255F84B200B46FF7 /* SceneDelegate.m */; };
-		FC08E9E1255F84B200B46FF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08E9E0255F84B200B46FF7 /* ViewController.m */; };
-		FC08E9E4255F84B200B46FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC08E9E2255F84B200B46FF7 /* Main.storyboard */; };
 		FC08E9E6255F84B200B46FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC08E9E5255F84B200B46FF7 /* Assets.xcassets */; };
 		FC08E9E9255F84B200B46FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC08E9E7255F84B200B46FF7 /* LaunchScreen.storyboard */; };
 		FC08E9EC255F84B200B46FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08E9EB255F84B200B46FF7 /* main.m */; };
+		FC08E9F9255F85C700B46FF7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08E9F8255F85C700B46FF7 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AF9DAB6B2BDAF85CA350190 /* Pods-Fansbot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fansbot.release.xcconfig"; path = "Target Support Files/Pods-Fansbot/Pods-Fansbot.release.xcconfig"; sourceTree = "<group>"; };
+		9F6E2E2319AD4CC2457EE10A /* libPods-Fansbot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Fansbot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F826C882E6019CD5E3B10164 /* Pods-Fansbot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fansbot.debug.xcconfig"; path = "Target Support Files/Pods-Fansbot/Pods-Fansbot.debug.xcconfig"; sourceTree = "<group>"; };
 		FC08E9D6255F84B200B46FF7 /* Fansbot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fansbot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC08E9D9255F84B200B46FF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FC08E9DA255F84B200B46FF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FC08E9DC255F84B200B46FF7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		FC08E9DD255F84B200B46FF7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		FC08E9DF255F84B200B46FF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FC08E9E0255F84B200B46FF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FC08E9E3255F84B200B46FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC08E9E5255F84B200B46FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC08E9E8255F84B200B46FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC08E9EA255F84B200B46FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC08E9EB255F84B200B46FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC08E9F7255F85C700B46FF7 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FC08E9F8255F85C700B46FF7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3805F98E2AFB24A4D5D04DA5 /* libPods-Fansbot.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4931B6460255ACAE449DAE69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F6E2E2319AD4CC2457EE10A /* libPods-Fansbot.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D486DD8D36DF0DACA0248A31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F826C882E6019CD5E3B10164 /* Pods-Fansbot.debug.xcconfig */,
+				3AF9DAB6B2BDAF85CA350190 /* Pods-Fansbot.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FC08E9CD255F84B200B46FF7 = {
 			isa = PBXGroup;
 			children = (
 				FC08E9D8255F84B200B46FF7 /* Fansbot */,
 				FC08E9D7255F84B200B46FF7 /* Products */,
+				D486DD8D36DF0DACA0248A31 /* Pods */,
+				4931B6460255ACAE449DAE69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +81,24 @@
 		FC08E9D8255F84B200B46FF7 /* Fansbot */ = {
 			isa = PBXGroup;
 			children = (
+				FC08E9F6255F85A900B46FF7 /* ViewController */,
 				FC08E9D9255F84B200B46FF7 /* AppDelegate.h */,
 				FC08E9DA255F84B200B46FF7 /* AppDelegate.m */,
-				FC08E9DC255F84B200B46FF7 /* SceneDelegate.h */,
-				FC08E9DD255F84B200B46FF7 /* SceneDelegate.m */,
-				FC08E9DF255F84B200B46FF7 /* ViewController.h */,
-				FC08E9E0255F84B200B46FF7 /* ViewController.m */,
-				FC08E9E2255F84B200B46FF7 /* Main.storyboard */,
 				FC08E9E5255F84B200B46FF7 /* Assets.xcassets */,
 				FC08E9E7255F84B200B46FF7 /* LaunchScreen.storyboard */,
 				FC08E9EA255F84B200B46FF7 /* Info.plist */,
 				FC08E9EB255F84B200B46FF7 /* main.m */,
 			);
 			path = Fansbot;
+			sourceTree = "<group>";
+		};
+		FC08E9F6255F85A900B46FF7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC08E9F7255F85C700B46FF7 /* RootViewController.h */,
+				FC08E9F8255F85C700B46FF7 /* RootViewController.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC08E9EF255F84B200B46FF7 /* Build configuration list for PBXNativeTarget "Fansbot" */;
 			buildPhases = (
+				6714AC1DEF1365C354E06CC5 /* [CP] Check Pods Manifest.lock */,
 				FC08E9D2255F84B200B46FF7 /* Sources */,
 				FC08E9D3255F84B200B46FF7 /* Frameworks */,
 				FC08E9D4255F84B200B46FF7 /* Resources */,
+				D9FB6F7E8EFF9F87676493D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,35 +161,67 @@
 			files = (
 				FC08E9E9255F84B200B46FF7 /* LaunchScreen.storyboard in Resources */,
 				FC08E9E6255F84B200B46FF7 /* Assets.xcassets in Resources */,
-				FC08E9E4255F84B200B46FF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6714AC1DEF1365C354E06CC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fansbot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9FB6F7E8EFF9F87676493D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fansbot/Pods-Fansbot-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fansbot/Pods-Fansbot-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fansbot/Pods-Fansbot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC08E9D2255F84B200B46FF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC08E9E1255F84B200B46FF7 /* ViewController.m in Sources */,
 				FC08E9DB255F84B200B46FF7 /* AppDelegate.m in Sources */,
 				FC08E9EC255F84B200B46FF7 /* main.m in Sources */,
-				FC08E9DE255F84B200B46FF7 /* SceneDelegate.m in Sources */,
+				FC08E9F9255F85C700B46FF7 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FC08E9E2255F84B200B46FF7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC08E9E3255F84B200B46FF7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC08E9E7255F84B200B46FF7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,37 +347,41 @@
 		};
 		FC08E9F0255F84B200B46FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F826C882E6019CD5E3B10164 /* Pods-Fansbot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULGBWSCM82;
 				INFOPLIST_FILE = Fansbot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fansbot.telematic.Fansbot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FC08E9F1255F84B200B46FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF9DAB6B2BDAF85CA350190 /* Pods-Fansbot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULGBWSCM82;
 				INFOPLIST_FILE = Fansbot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fansbot.telematic.Fansbot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
