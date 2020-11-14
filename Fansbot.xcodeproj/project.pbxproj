@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -56,7 +56,6 @@
 				F826C882E6019CD5E3B10164 /* Pods-Fansbot.debug.xcconfig */,
 				3AF9DAB6B2BDAF85CA350190 /* Pods-Fansbot.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -359,7 +358,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fansbot.telematic.Fansbot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fansbot.telematic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -379,7 +378,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fansbot.telematic.Fansbot;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fansbot.telematic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
