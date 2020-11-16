@@ -17,7 +17,6 @@
 		FC08EA192562016800B46FF7 /* NetworkManage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08EA162562016800B46FF7 /* NetworkManage.m */; };
 		FC08EA1A2562016800B46FF7 /* UIViewManage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08EA172562016800B46FF7 /* UIViewManage.m */; };
 		FC1006C32562079000571309 /* NSString+handle.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1006C22562079000571309 /* NSString+handle.m */; };
-		FC1006C625620ED100571309 /* 测试.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1006C525620ED100571309 /* 测试.png */; };
 		FC1006CB256210A000571309 /* UIColor+base.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1006CA256210A000571309 /* UIColor+base.m */; };
 		FC1006D0256217E800571309 /* OptionalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1006CF256217E800571309 /* OptionalButton.m */; };
 		FC3C897325621BD200F12208 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3C897125621BD200F12208 /* UIView+Toast.m */; };
@@ -45,7 +44,6 @@
 		FC1006BD2562043700571309 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FC1006C12562079000571309 /* NSString+handle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+handle.h"; sourceTree = "<group>"; };
 		FC1006C22562079000571309 /* NSString+handle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+handle.m"; sourceTree = "<group>"; };
-		FC1006C525620ED100571309 /* 测试.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "测试.png"; sourceTree = "<group>"; };
 		FC1006C9256210A000571309 /* UIColor+base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+base.h"; sourceTree = "<group>"; };
 		FC1006CA256210A000571309 /* UIColor+base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+base.m"; sourceTree = "<group>"; };
 		FC1006CE256217E800571309 /* OptionalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionalButton.h; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 				FC08E9F8255F85C700B46FF7 /* RootViewController.m */,
 				FC08EA10255F8FB600B46FF7 /* BootViewController.h */,
 				FC08EA11255F8FB600B46FF7 /* BootViewController.m */,
-				FC1006C525620ED100571309 /* 测试.png */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -223,7 +220,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC08E9E9255F84B200B46FF7 /* LaunchScreen.storyboard in Resources */,
-				FC1006C625620ED100571309 /* 测试.png in Resources */,
 				FC08E9E6255F84B200B46FF7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
