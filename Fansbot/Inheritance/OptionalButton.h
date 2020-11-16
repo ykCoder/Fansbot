@@ -11,7 +11,7 @@ typedef  void(^clickAction)(OptionalButton * _Nullable btn);
 NS_ASSUME_NONNULL_BEGIN
 
 @interface OptionalButton : UIButton
-@property(nonatomic,copy) void(^block)(OptionalButton*btn);
+@property(nonatomic,copy) void(^block)(OptionalButton * _Nullable btn);
 -(id)initWithImageName:(NSString *)imageStr
               andTitle:(NSString *)titleStr
         RequestSuccess:(clickAction)requestSuccess;

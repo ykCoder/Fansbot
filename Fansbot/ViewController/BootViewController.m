@@ -6,6 +6,8 @@
 //
 
 #import "BootViewController.h"
+#import "LoginViewController.h"
+#import "AppDelegate.h"
 @interface BootViewController ()
 @property(nonatomic,strong)UIImageView *bgView;
 @property(nonatomic,strong)OptionalButton *skipBT;
@@ -15,12 +17,22 @@
 @end
 
 @implementation BootViewController
-
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.navigationController.navigationBar navBarBottomLineHidden:YES];//隐藏底线
+}
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [self.navigationController.navigationBar navBarBottomLineHidden:NO];//不隐藏底线
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    
+    [UDF setObject:@"has" forKey:@"hasGuide"];
+    [UDF synchronize];
     
     self.bgView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"测试"]];
     [self.view addSubview:self.bgView];
@@ -40,7 +52,7 @@
     
     
     self.skipBT = [UIViewManage myButtonWithImageName:nil andTitle:@"跳过 3s" titleColor:[UIColor grayColor] titleFont:[UIFont systemFontOfSize:12] backGroundColor:nil cornerRadius:10 RequestSuccess:^(OptionalButton * _Nullable btn) {
-        
+        [self skipAction];
     }];
     [self.view addSubview:self.skipBT];
     [self.skipBT mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -85,6 +97,13 @@
 -(void)skipAction
 {
     
+    if (self.timer) {
+        [self.timer invalidate];
+        self.timer = nil;
+    }
+//    [self.navigationController pushViewController:[LoginViewController new] animated:YES];
+    AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [delegate switchController];
 }
 
 

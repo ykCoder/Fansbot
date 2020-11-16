@@ -33,7 +33,7 @@
     return self;
 }
 
--(void)endAction:(OptionalButton *)btn
+-(void)endAction:(OptionalButton * )btn
 {
     [[btn getMyparentController].view endEditing:YES];
 

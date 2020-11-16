@@ -20,6 +20,12 @@
 		FC1006CB256210A000571309 /* UIColor+base.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1006CA256210A000571309 /* UIColor+base.m */; };
 		FC1006D0256217E800571309 /* OptionalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1006CF256217E800571309 /* OptionalButton.m */; };
 		FC3C897325621BD200F12208 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3C897125621BD200F12208 /* UIView+Toast.m */; };
+		FC49D67D25623D7200A889A2 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC49D67C25623D7200A889A2 /* RegisterViewController.m */; };
+		FC49D68325623FA200A889A2 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC49D67F25623FA200A889A2 /* BaseNavigationController.m */; };
+		FC49D68425623FA200A889A2 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC49D68225623FA200A889A2 /* BaseViewController.m */; };
+		FC49D6882562400200A889A2 /* UINavigationBar+handle.m in Sources */ = {isa = PBXBuildFile; fileRef = FC49D6862562400200A889A2 /* UINavigationBar+handle.m */; };
+		FC49D68C25624BEF00A889A2 /* BlockTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FC49D68B25624BEF00A889A2 /* BlockTextField.m */; };
+		FC49D6AD256261BA00A889A2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC49D6AC256261BA00A889A2 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +56,18 @@
 		FC1006CF256217E800571309 /* OptionalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionalButton.m; sourceTree = "<group>"; };
 		FC3C897125621BD200F12208 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 		FC3C897225621BD200F12208 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		FC49D67B25623D7200A889A2 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		FC49D67C25623D7200A889A2 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		FC49D67F25623FA200A889A2 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		FC49D68025623FA200A889A2 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		FC49D68125623FA200A889A2 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FC49D68225623FA200A889A2 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FC49D6862562400200A889A2 /* UINavigationBar+handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+handle.m"; sourceTree = "<group>"; };
+		FC49D6872562400200A889A2 /* UINavigationBar+handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+handle.h"; sourceTree = "<group>"; };
+		FC49D68A25624BEF00A889A2 /* BlockTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTextField.h; sourceTree = "<group>"; };
+		FC49D68B25624BEF00A889A2 /* BlockTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTextField.m; sourceTree = "<group>"; };
+		FC49D6AB256261BA00A889A2 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FC49D6AC256261BA00A889A2 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +138,7 @@
 		FC08E9F6255F85A900B46FF7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FC49D6AA2562616D00A889A2 /* 登录注册 */,
 				FC08E9F7255F85C700B46FF7 /* RootViewController.h */,
 				FC08E9F8255F85C700B46FF7 /* RootViewController.m */,
 				FC08EA10255F8FB600B46FF7 /* BootViewController.h */,
@@ -142,6 +161,8 @@
 		FC1006C02562071C00571309 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FC49D6872562400200A889A2 /* UINavigationBar+handle.h */,
+				FC49D6862562400200A889A2 /* UINavigationBar+handle.m */,
 				FC3C897225621BD200F12208 /* UIView+Toast.h */,
 				FC3C897125621BD200F12208 /* UIView+Toast.m */,
 				FC1006C12562079000571309 /* NSString+handle.h */,
@@ -155,10 +176,27 @@
 		FC1006CD2562171200571309 /* Inheritance */ = {
 			isa = PBXGroup;
 			children = (
+				FC49D68025623FA200A889A2 /* BaseNavigationController.h */,
+				FC49D67F25623FA200A889A2 /* BaseNavigationController.m */,
+				FC49D68125623FA200A889A2 /* BaseViewController.h */,
+				FC49D68225623FA200A889A2 /* BaseViewController.m */,
 				FC1006CE256217E800571309 /* OptionalButton.h */,
 				FC1006CF256217E800571309 /* OptionalButton.m */,
+				FC49D68A25624BEF00A889A2 /* BlockTextField.h */,
+				FC49D68B25624BEF00A889A2 /* BlockTextField.m */,
 			);
 			path = Inheritance;
+			sourceTree = "<group>";
+		};
+		FC49D6AA2562616D00A889A2 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				FC49D67B25623D7200A889A2 /* RegisterViewController.h */,
+				FC49D67C25623D7200A889A2 /* RegisterViewController.m */,
+				FC49D6AB256261BA00A889A2 /* LoginViewController.h */,
+				FC49D6AC256261BA00A889A2 /* LoginViewController.m */,
+			);
+			path = "登录注册";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,13 +311,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC49D67D25623D7200A889A2 /* RegisterViewController.m in Sources */,
+				FC49D6882562400200A889A2 /* UINavigationBar+handle.m in Sources */,
 				FC1006D0256217E800571309 /* OptionalButton.m in Sources */,
 				FC08E9DB255F84B200B46FF7 /* AppDelegate.m in Sources */,
+				FC49D68C25624BEF00A889A2 /* BlockTextField.m in Sources */,
 				FC08E9EC255F84B200B46FF7 /* main.m in Sources */,
 				FC08EA12255F8FB600B46FF7 /* BootViewController.m in Sources */,
 				FC08EA1A2562016800B46FF7 /* UIViewManage.m in Sources */,
+				FC49D6AD256261BA00A889A2 /* LoginViewController.m in Sources */,
 				FC1006CB256210A000571309 /* UIColor+base.m in Sources */,
 				FC1006C32562079000571309 /* NSString+handle.m in Sources */,
+				FC49D68325623FA200A889A2 /* BaseNavigationController.m in Sources */,
+				FC49D68425623FA200A889A2 /* BaseViewController.m in Sources */,
 				FC08E9F9255F85C700B46FF7 /* RootViewController.m in Sources */,
 				FC3C897325621BD200F12208 /* UIView+Toast.m in Sources */,
 				FC08EA192562016800B46FF7 /* NetworkManage.m in Sources */,

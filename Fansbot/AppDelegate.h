@@ -9,6 +9,9 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (strong, nonatomic) UIWindow *window;
-
+/**
+ 切换根视图
+ */
+-(void)switchController;
 @end
 
