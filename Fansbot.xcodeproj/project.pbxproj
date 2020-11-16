@@ -13,6 +13,14 @@
 		FC08E9E9255F84B200B46FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC08E9E7255F84B200B46FF7 /* LaunchScreen.storyboard */; };
 		FC08E9EC255F84B200B46FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08E9EB255F84B200B46FF7 /* main.m */; };
 		FC08E9F9255F85C700B46FF7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08E9F8255F85C700B46FF7 /* RootViewController.m */; };
+		FC08EA12255F8FB600B46FF7 /* BootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08EA11255F8FB600B46FF7 /* BootViewController.m */; };
+		FC08EA192562016800B46FF7 /* NetworkManage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08EA162562016800B46FF7 /* NetworkManage.m */; };
+		FC08EA1A2562016800B46FF7 /* UIViewManage.m in Sources */ = {isa = PBXBuildFile; fileRef = FC08EA172562016800B46FF7 /* UIViewManage.m */; };
+		FC1006C32562079000571309 /* NSString+handle.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1006C22562079000571309 /* NSString+handle.m */; };
+		FC1006C625620ED100571309 /* 测试.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1006C525620ED100571309 /* 测试.png */; };
+		FC1006CB256210A000571309 /* UIColor+base.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1006CA256210A000571309 /* UIColor+base.m */; };
+		FC1006D0256217E800571309 /* OptionalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1006CF256217E800571309 /* OptionalButton.m */; };
+		FC3C897325621BD200F12208 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3C897125621BD200F12208 /* UIView+Toast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,22 @@
 		FC08E9EB255F84B200B46FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC08E9F7255F85C700B46FF7 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		FC08E9F8255F85C700B46FF7 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		FC08EA10255F8FB600B46FF7 /* BootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BootViewController.h; sourceTree = "<group>"; };
+		FC08EA11255F8FB600B46FF7 /* BootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootViewController.m; sourceTree = "<group>"; };
+		FC08EA152562016800B46FF7 /* UIViewManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewManage.h; sourceTree = "<group>"; };
+		FC08EA162562016800B46FF7 /* NetworkManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManage.m; sourceTree = "<group>"; };
+		FC08EA172562016800B46FF7 /* UIViewManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewManage.m; sourceTree = "<group>"; };
+		FC08EA182562016800B46FF7 /* NetworkManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManage.h; sourceTree = "<group>"; };
+		FC1006BD2562043700571309 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FC1006C12562079000571309 /* NSString+handle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+handle.h"; sourceTree = "<group>"; };
+		FC1006C22562079000571309 /* NSString+handle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+handle.m"; sourceTree = "<group>"; };
+		FC1006C525620ED100571309 /* 测试.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "测试.png"; sourceTree = "<group>"; };
+		FC1006C9256210A000571309 /* UIColor+base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+base.h"; sourceTree = "<group>"; };
+		FC1006CA256210A000571309 /* UIColor+base.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+base.m"; sourceTree = "<group>"; };
+		FC1006CE256217E800571309 /* OptionalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionalButton.h; sourceTree = "<group>"; };
+		FC1006CF256217E800571309 /* OptionalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionalButton.m; sourceTree = "<group>"; };
+		FC3C897125621BD200F12208 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		FC3C897225621BD200F12208 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +104,13 @@
 		FC08E9D8255F84B200B46FF7 /* Fansbot */ = {
 			isa = PBXGroup;
 			children = (
+				FC1006CD2562171200571309 /* Inheritance */,
+				FC1006C02562071C00571309 /* Category */,
+				FC08EA142562016800B46FF7 /* Tool */,
 				FC08E9F6255F85A900B46FF7 /* ViewController */,
 				FC08E9D9255F84B200B46FF7 /* AppDelegate.h */,
 				FC08E9DA255F84B200B46FF7 /* AppDelegate.m */,
+				FC1006BD2562043700571309 /* PrefixHeader.pch */,
 				FC08E9E5255F84B200B46FF7 /* Assets.xcassets */,
 				FC08E9E7255F84B200B46FF7 /* LaunchScreen.storyboard */,
 				FC08E9EA255F84B200B46FF7 /* Info.plist */,
@@ -96,8 +124,44 @@
 			children = (
 				FC08E9F7255F85C700B46FF7 /* RootViewController.h */,
 				FC08E9F8255F85C700B46FF7 /* RootViewController.m */,
+				FC08EA10255F8FB600B46FF7 /* BootViewController.h */,
+				FC08EA11255F8FB600B46FF7 /* BootViewController.m */,
+				FC1006C525620ED100571309 /* 测试.png */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FC08EA142562016800B46FF7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				FC08EA152562016800B46FF7 /* UIViewManage.h */,
+				FC08EA172562016800B46FF7 /* UIViewManage.m */,
+				FC08EA182562016800B46FF7 /* NetworkManage.h */,
+				FC08EA162562016800B46FF7 /* NetworkManage.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		FC1006C02562071C00571309 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FC3C897225621BD200F12208 /* UIView+Toast.h */,
+				FC3C897125621BD200F12208 /* UIView+Toast.m */,
+				FC1006C12562079000571309 /* NSString+handle.h */,
+				FC1006C22562079000571309 /* NSString+handle.m */,
+				FC1006C9256210A000571309 /* UIColor+base.h */,
+				FC1006CA256210A000571309 /* UIColor+base.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FC1006CD2562171200571309 /* Inheritance */ = {
+			isa = PBXGroup;
+			children = (
+				FC1006CE256217E800571309 /* OptionalButton.h */,
+				FC1006CF256217E800571309 /* OptionalButton.m */,
+			);
+			path = Inheritance;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC08E9E9255F84B200B46FF7 /* LaunchScreen.storyboard in Resources */,
+				FC1006C625620ED100571309 /* 测试.png in Resources */,
 				FC08E9E6255F84B200B46FF7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,9 +277,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1006D0256217E800571309 /* OptionalButton.m in Sources */,
 				FC08E9DB255F84B200B46FF7 /* AppDelegate.m in Sources */,
 				FC08E9EC255F84B200B46FF7 /* main.m in Sources */,
+				FC08EA12255F8FB600B46FF7 /* BootViewController.m in Sources */,
+				FC08EA1A2562016800B46FF7 /* UIViewManage.m in Sources */,
+				FC1006CB256210A000571309 /* UIColor+base.m in Sources */,
+				FC1006C32562079000571309 /* NSString+handle.m in Sources */,
 				FC08E9F9255F85C700B46FF7 /* RootViewController.m in Sources */,
+				FC3C897325621BD200F12208 /* UIView+Toast.m in Sources */,
+				FC08EA192562016800B46FF7 /* NetworkManage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +424,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULGBWSCM82;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Fansbot/PrefixHeader.pch";
 				INFOPLIST_FILE = Fansbot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -372,6 +446,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ULGBWSCM82;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Fansbot/PrefixHeader.pch";
 				INFOPLIST_FILE = Fansbot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  Fansbot
+//
+//  Created by 杨康 on 2020/11/16.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "NSString+handle.h"
+#import "Masonry.h"
+#import "UIViewManage.h"
+#import "UIView+Toast.h"
+
+
+
+
+
+
+#define UDF [NSUserDefaults standardUserDefaults]
+#define APPTOKEN [NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"token"]]
+#define GUIDE [NSString stringWithFormat:@"%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"hasGuide"]]
+
+#endif /* PrefixHeader_pch */
